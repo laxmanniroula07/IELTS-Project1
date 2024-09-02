@@ -1,0 +1,125 @@
+body {
+  font-family: Georgia, serif;
+}
+
+.form-container {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 2rem;
+  background-color: #beb8b8;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form h2 {
+  margin: 0px 10px 20px 18px;
+}
+
+form p {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input, select {
+  margin:5px 5px 15px 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 90%;
+  box-sizing: border-box; 
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #032d5b;
+}
+
+.toggle-link, a {
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.remember-forgot label {
+  display: flex;
+  flex: 1;
+  align-items: center; 
+}
+
+.remember-forgot input[type="checkbox"] {
+  margin-left:-120px; 
+}
+
+.remember-forgot a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.other-signup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.google, .apple {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 8px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 13px;
+  width: 230px;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+ 
+}
+
+.input-icon {
+  position: absolute;
+  left: 0px; 
+  top: 40%;
+  height: 1.2rem;
+  width: 1.2rem;
+  transform: translateY(-50%);
+  color: black;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  right: 35px; 
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: black;
+}
